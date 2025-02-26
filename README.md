@@ -1,8 +1,4 @@
 # textUtils
-A tool for analyzing text data in Django Backend
-
-# TextUtils by Abdullah
-
 TextUtils is a simple Django-based text-processing web application that allows users to manipulate text by removing punctuations, converting text to uppercase, removing new lines, eliminating extra spaces, and counting characters.
 
 ## Features
