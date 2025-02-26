@@ -23,12 +23,6 @@ git clone https://github.com/Abdullah-Raashid/TextUtils.git
 cd TextUtils
 ```
 
-### Create a Virtual Environment (Optional but Recommended)
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-
 ### Install Dependencies
 ```sh
 pip install django
@@ -102,10 +96,3 @@ The project uses **TailwindCSS** for styling and a simple toast notification sys
 - Includes a toast notification that disappears after 5 seconds.
 
 ---
-
-## Connect with Me
-- **GitHub:** [Abdullah-Raashid](https://github.com/Abdullah-Raashid/)
-- **LinkedIn:** [Abdullah Raashid](https://www.linkedin.com/in/abdullah-raashid/)
-
-Feel free to fork and contribute! 🚀
-
