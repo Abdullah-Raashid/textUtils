@@ -1,20 +1,8 @@
 asgiref==3.8.1
 Django==4.2.19
-numpy==1.26.4 --only-binary=numpy  # Updated from 1.25.1 to a compatible version
-pandas==2.2.3
-scipy==1.13.1
-scikit-learn==1.6.0
-matplotlib==3.9.3
-seaborn==0.13.2
-spacy==3.6.0
-tqdm==4.65.0
-requests==2.31.0
-Pillow==11.0.0
-torch==2.6.0 --only-binary=torch
-torchvision==0.21.0 --only-binary=torchvision
-networkx==3.2.1
-sympy==1.13.1
 tzdata==2025.1
 sqlparse==0.5.3
 gunicorn==21.2.0
 whitenoise==6.6.0
+requests==2.31.0  # Keep if your app makes HTTP requests
+Pillow==11.0.0    # Keep if handling images
