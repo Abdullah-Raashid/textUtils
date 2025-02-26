@@ -1,6 +1,6 @@
 asgiref==3.8.1
 Django==4.2.19
-numpy==1.25.1 --only-binary=numpy
+numpy==1.26.4 --only-binary=numpy  # Updated from 1.25.1 to a compatible version
 pandas==2.2.3
 scipy==1.13.1
 scikit-learn==1.6.0
