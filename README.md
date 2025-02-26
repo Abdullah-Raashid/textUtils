@@ -19,34 +19,11 @@ git clone https://github.com/Abdullah-Raashid/TextUtils.git
 cd TextUtils
 ```
 
-### Install Dependencies
-```sh
-pip install django
-```
-
 ### Run the Server
 ```sh
 python manage.py runserver
 ```
-Now, open `http://127.0.0.1:8000/` in your browser.
-
----
-
-## Project Structure
-```
-textutils/
-│── manage.py
-│── textutils/
-│   │── settings.py
-│   │── urls.py
-│   │── wsgi.py
-│── textutilsapp/
-│   │── views.py
-│   │── templates/
-│   │   │── index.html
-│   │   │── analyze.html
-│   │   │── error.html
-```
+Open `http://127.0.0.1:8000/` in your browser.
 
 ---
 
@@ -80,15 +57,18 @@ If no processing option is selected, it redirects to `error.html`.
 
 ---
 
-## Frontend Overview
-The project uses **TailwindCSS** for styling and a simple toast notification system for success messages.
-
-### `index.html`
-- Contains a form where users enter text and select processing options.
-- Submits the form data via **POST** to `/analyze/`.
-
-### `analyze.html`
-- Displays the processed text results with a success message.
-- Includes a toast notification that disappears after 5 seconds.
-
----
+## Project Structure
+```
+textutils/
+│── manage.py
+│── textutils/
+│   │── settings.py
+│   │── urls.py
+│   │── wsgi.py
+│── textutilsapp/
+│   │── views.py
+│   │── templates/
+│   │   │── index.html
+│   │   │── analyze.html
+│   │   │── error.html
+```
